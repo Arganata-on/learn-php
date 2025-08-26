@@ -6,3 +6,27 @@
 // || = True if at least one condition is true
 // ! = True if false. False if true.
 
+$temp = 15;
+$cloudy = false;
+
+if ($temp >= 0 && $temp <= 30) {
+    echo "The weather is good.";
+} else {
+    echo "The weather is bad.";
+}
+
+echo "<br><br>";
+
+if ($temp < 0 || $temp > 30) {
+    echo "The weather is bad.";
+} else {
+    echo "The weather is good.";
+}
+
+echo "<br><br>";
+
+if (!$cloudy) {
+    echo "It's sunny";
+} else {
+    echo "It's cloudy";
+}
